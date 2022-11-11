@@ -1,10 +1,17 @@
 ﻿namespace FactoryPattern
 {
-    public class Program
+    public partial class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            while (true)
+            {
+                var car = VehicleFactory.GetVehicle();   
+            }
         }
+            
+
+
+
     }
 }
